@@ -1,0 +1,75 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .app-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+  }
+  
+  .search-container {
+    margin: 20px;
+  }
+  
+  .search-container input {
+    padding: 10px;
+    font-size: 1em;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .plants-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .plant-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .plant-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  form {
+    margin: 20px;
+  }
+  
+  form input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
